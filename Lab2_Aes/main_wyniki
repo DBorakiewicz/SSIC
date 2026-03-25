@@ -1,0 +1,42 @@
+C:\Users\dawid\PycharmProjects\SSiC\.venv\Scripts\python.exe C:\Users\dawid\PycharmProjects\SSiC\Lab2\main.py
+Szyfrowanie AES-128
+Całkowity czas : 39.288s, czas samego szyforwania: 20.665s
+Prędkość całej operacji: 260.642 MB/s
+Prędkość samego szyfrowania: 495.514 MB/s
+
+Deszyfrowanie AES-128
+Całkowity czas : 39.327s, czas samego deszyfrowania: 20.537s
+Prędkość całej operacji: 260.383 MB/s
+Prędkość samego deszyfrowania: 498.614 MB/s
+
+✅ WERYFIKACJA: Pliki identyczne!
+
+====================================================================================================
+Szyfrowanie AES-192
+Całkowity czas : 38.695s, czas samego szyforwania: 20.948s
+Prędkość całej operacji: 264.637 MB/s
+Prędkość samego szyfrowania: 488.840 MB/s
+
+Deszyfrowanie AES-192
+Całkowity czas : 39.112s, czas samego deszyfrowania: 20.708s
+Prędkość całej operacji: 261.810 MB/s
+Prędkość samego deszyfrowania: 494.491 MB/s
+
+✅ WERYFIKACJA: Pliki identyczne!
+
+====================================================================================================
+Szyfrowanie AES-256
+Całkowity czas : 38.716s, czas samego szyforwania: 21.351s
+Prędkość całej operacji: 264.490 MB/s
+Prędkość samego szyfrowania: 479.599 MB/s
+
+Deszyfrowanie AES-256
+Całkowity czas : 40.274s, czas samego deszyfrowania: 21.578s
+Prędkość całej operacji: 254.261 MB/s
+Prędkość samego deszyfrowania: 474.558 MB/s
+
+✅ WERYFIKACJA: Pliki identyczne!
+
+====================================================================================================
+
+Process finished with exit code 0

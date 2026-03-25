@@ -1,0 +1,49 @@
+C:\Users\dawid\PycharmProjects\SSiC\.venv\Scripts\python.exe C:\Users\dawid\PycharmProjects\SSiC\Lab2\pararrel.py
+Plik: file_10gb.bin (10.00 GB)
+Algorytm: AES-192 (CTR)
+Dostępne rdzenie CPU: 12
+================================================================================
+
+>>> SZYFROWANIE SEKWENCYJNE
+  Całkowity czas:        40.480 s
+  Czas szyfrowania:      22.260 s
+  Prędkość całkowita:    253.0 MB/s
+  Prędkość szyfrowania:  460.0 MB/s
+
+>>> DESZYFROWANIE SEKWENCYJNE
+  Całkowity czas:        42.942 s
+  Czas deszyfrowania:    21.733 s
+  Prędkość całkowita:    238.5 MB/s
+  Prędkość deszyfrowania:471.2 MB/s
+
+  Weryfikacja: OK - pliki identyczne
+
+================================================================================
+
+>>> SZYFROWANIE RÓWNOLEGŁE (12 procesów)
+  Całkowity czas:        49.360 s
+  Suma czasów crypto:    36.254 s (we wszystkich procesach)
+  Max czas crypto:       3.138 s (najwolniejszy worker)
+  Prędkość całkowita:    207.5 MB/s
+
+>>> DESZYFROWANIE RÓWNOLEGŁE (12 procesów)
+  Całkowity czas:        47.827 s
+  Suma czasów crypto:    35.147 s
+  Max czas crypto:       3.017 s
+  Prędkość całkowita:    214.1 MB/s
+
+  Weryfikacja: OK - pliki identyczne
+
+================================================================================
+
+>>> PORÓWNANIE
+  Operacja                        Sekwencyjne   Równoległe  Przyspieszenie
+  ---------------------------------------------------------------------
+  Szyfrowanie (total)                 40.480s      49.360s           0.82x
+  Deszyfrowanie (total)               42.942s      47.827s           0.90x
+
+  Teoretyczne max przyspieszenie (liczba rdzeni): 12x
+  Efektywność szyfrowania:   6.8%
+  Efektywność deszyfrowania: 7.5%
+
+Process finished with exit code 0
