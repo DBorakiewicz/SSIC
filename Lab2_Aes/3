@@ -1,0 +1,46 @@
+C:\Users\dawid\PycharmProjects\SSiC\.venv\Scripts\python.exe C:\Users\dawid\PycharmProjects\SSiC\Lab2\test.py
+============================================================
+Porównanie pycryptodome AES-NI vs bez AES-NI
+Rozmiar pliku: 1 GB | Klucz: AES-256
+============================================================
+Generowanie pliku testowego (1 GB)...
+  Plik wygenerowany: test_input.bin
+
+>>> PYCRYPTODOME (z AES-NI)
+  Szyfrowanie...
+  [pycryptodome] Szyfrowanie
+    Czas całkowity:       3.491 s
+    Czas kryptografii:    1.730 s
+    Czas I/O:             0.884 s
+    Przepustowość całk.:  293.34 MB/s
+    Przepustowość krypt.: 592.02 MB/s
+  Deszyfrowanie...
+  [pycryptodome] Deszyfrowanie
+    Czas całkowity:       3.493 s
+    Czas kryptografii:    1.731 s
+    Czas I/O:             0.888 s
+    Przepustowość całk.:  293.20 MB/s
+    Przepustowość krypt.: 591.45 MB/s
+  Weryfikacja pycryptodome... OK - pliki identyczne
+
+>>> PyCryptoDome (bez AES-NI)
+  Szyfrowanie...
+  [pycrptodome (aesni=Flase)] Szyfrowanie
+    Czas całkowity:       13.858 s
+    Czas kryptografii:    12.097 s
+    Czas I/O:             0.926 s
+    Przepustowość całk.:  73.89 MB/s
+    Przepustowość krypt.: 84.65 MB/s
+  Deszyfrowanie...
+  [pycryptodome (aesni=False)] Deszyfrowanie
+    Czas całkowity:       14.729 s
+    Czas kryptografii:    12.821 s
+    Czas I/O:             0.826 s
+    Przepustowość całk.:  69.52 MB/s
+    Przepustowość krypt.: 79.87 MB/s
+  Weryfikacja pycrptodome (aesni=False)... OK - pliki identyczne
+
+============================================================
+Gotowe!
+
+Process finished with exit code 0
