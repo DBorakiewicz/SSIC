@@ -10,7 +10,7 @@ import numpy as np
 import sys
 
 # === Parametry ===
-K = 4                    # liczba bitów syndromu = bitów danych na blok
+K = 3                    # liczba bitów syndromu = bitów danych na blok
 N = (1 << K) - 1         # 63 bity nośnika na blok
 TEST_SIZE_BITS = 12_800_000  # 12.8 Mb = obszar testowany przez NIST (10^7 bitów dla single sequence; tu trzymamy się treści zadania: 12.8 MB)
 # UWAGA: Zadanie mówi "pierwsze 12.8 MB". Jeden blok NIST = 1 Mb = 10^6 bitów.

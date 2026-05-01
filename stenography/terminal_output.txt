@@ -1,0 +1,117 @@
+(.venv) dawid@dawid:~/PycharmProjects/SSIC/stenography$ python test.py TRNG_P.bit k4.bit
+Wczytuję plik nośnika: TRNG_P.bit
+  - długość: 1073741824 bitów = 134217728 bajtów
+
+Obszar testowany przez NIST: 102400000 bitów (12800000 bajtów = 12.21 MB)
+Liczba bloków po N=15 bitów: 6826666
+Maksymalna pojemność: 27306664 bitów = 3.255 MB
+
+Dane do ukrycia: ciąg 27306664 jedynek
+
+Koduję...
+
+=== WYNIKI KODOWANIA ===
+Bloków użytych:           6826666
+Bitów danych ukrytych:    27306664
+Bajtów danych ukrytych:   3413333.00
+Megabajtów ukrytych:      3.2552 MB
+Bitów zmienionych (flipów): 6400190
+Gęstość modyfikacji:      6.2502% bitów obszaru testowego
+Efektywność:              4.267 bitów danych / 1 flip
+Procent pliku ukryty:     26.667% obszaru testowego
+                          2.543% całego pliku
+
+Zapisano plik stego: k4.bit
+
+Weryfikuję - dekoduję plik stego...
+OK: odzyskano wszystkie 27306664 bitów danych poprawnie.
+
+Liczba bitów różniących stego od oryginału: 6400190 (= 6400190 flipów - powinno być równe)
+(.venv) dawid@dawid:~/PycharmProjects/SSIC/stenography$ python test.py TRNG_P.bit k7.bit
+Wczytuję plik nośnika: TRNG_P.bit
+  - długość: 1073741824 bitów = 134217728 bajtów
+
+Obszar testowany przez NIST: 102400000 bitów (12800000 bajtów = 12.21 MB)
+Liczba bloków po N=127 bitów: 806299
+Maksymalna pojemność: 5644093 bitów = 0.673 MB
+
+Dane do ukrycia: ciąg 5644093 jedynek
+
+Koduję...
+
+=== WYNIKI KODOWANIA ===
+Bloków użytych:           806299
+Bitów danych ukrytych:    5644093
+Bajtów danych ukrytych:   705511.62
+Megabajtów ukrytych:      0.6728 MB
+Bitów zmienionych (flipów): 799887
+Gęstość modyfikacji:      0.7811% bitów obszaru testowego
+Efektywność:              7.056 bitów danych / 1 flip
+Procent pliku ukryty:     5.512% obszaru testowego
+                          0.526% całego pliku
+
+Zapisano plik stego: k7.bit
+
+Weryfikuję - dekoduję plik stego...
+OK: odzyskano wszystkie 5644093 bitów danych poprawnie.
+
+Liczba bitów różniących stego od oryginału: 799887 (= 799887 flipów - powinno być równe)
+(.venv) dawid@dawid:~/PycharmProjects/SSIC/stenography$ python test.py TRNG_P.bit k10.bit
+Wczytuję plik nośnika: TRNG_P.bit
+  - długość: 1073741824 bitów = 134217728 bajtów
+
+Obszar testowany przez NIST: 102400000 bitów (12800000 bajtów = 12.21 MB)
+Liczba bloków po N=1023 bitów: 100097
+Maksymalna pojemność: 1000970 bitów = 0.119 MB
+
+Dane do ukrycia: ciąg 1000970 jedynek
+
+Koduję...
+
+=== WYNIKI KODOWANIA ===
+Bloków użytych:           100097
+Bitów danych ukrytych:    1000970
+Bajtów danych ukrytych:   125121.25
+Megabajtów ukrytych:      0.1193 MB
+Bitów zmienionych (flipów): 99997
+Gęstość modyfikacji:      0.0977% bitów obszaru testowego
+Efektywność:              10.010 bitów danych / 1 flip
+Procent pliku ukryty:     0.978% obszaru testowego
+                          0.093% całego pliku
+
+Zapisano plik stego: k10.bit
+
+Weryfikuję - dekoduję plik stego...
+OK: odzyskano wszystkie 1000970 bitów danych poprawnie.
+
+Liczba bitów różniących stego od oryginału: 99997 (= 99997 flipów - powinno być równe)
+(.venv) dawid@dawid:~/PycharmProjects/SSIC/stenography$ python test.py TRNG_P.bit k3.bit
+Wczytuję plik nośnika: TRNG_P.bit
+  - długość: 1073741824 bitów = 134217728 bajtów
+
+Obszar testowany przez NIST: 102400000 bitów (12800000 bajtów = 12.21 MB)
+Liczba bloków po N=7 bitów: 14628571
+Maksymalna pojemność: 43885713 bitów = 5.232 MB
+
+Dane do ukrycia: ciąg 43885713 jedynek
+
+Koduję...
+
+=== WYNIKI KODOWANIA ===
+Bloków użytych:           14628571
+Bitów danych ukrytych:    43885713
+Bajtów danych ukrytych:   5485714.12
+Megabajtów ukrytych:      5.2316 MB
+Bitów zmienionych (flipów): 12798646
+Gęstość modyfikacji:      12.4987% bitów obszaru testowego
+Efektywność:              3.429 bitów danych / 1 flip
+Procent pliku ukryty:     42.857% obszaru testowego
+                          4.087% całego pliku
+
+Zapisano plik stego: k3.bit
+
+Weryfikuję - dekoduję plik stego...
+OK: odzyskano wszystkie 43885713 bitów danych poprawnie.
+
+Liczba bitów różniących stego od oryginału: 12798646 (= 12798646 flipów - powinno być równe)
+(.venv) dawid@dawid:~/PycharmProjects/SSIC/stenography$
