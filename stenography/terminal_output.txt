@@ -114,4 +114,4 @@ Weryfikuję - dekoduję plik stego...
 OK: odzyskano wszystkie 43885713 bitów danych poprawnie.
 
 Liczba bitów różniących stego od oryginału: 12798646 (= 12798646 flipów - powinno być równe)
-(.venv) dawid@dawid:~/PycharmProjects/SSIC/stenography$
+(.venv) dawid@dawid:~/PycharmProjects/SSIC/stenography$z
