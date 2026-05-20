@@ -2,7 +2,8 @@ import sys
 import time
 from concurrent.futures import ProcessPoolExecutor
 from bpsw import is_prime_bpsw
-from bpsw_fast import is_prime_bpsw as is_prime_bpsw_gmpy
+from bpsw_gmpy import is_prime_bpsw as is_prime_bpsw_gmpy
+from bpsw_fast import is_prime_bpsw as is_prime_bpsw_fast
 
 
 BLOCK_SIZE = 256   # 2048 bitów = 256 bajtów
@@ -10,7 +11,7 @@ BLOCK_SIZE = 256   # 2048 bitów = 256 bajtów
 def check_block(block: bytes) -> bool:
     """Konwertuje blok bajtów na liczbę i zwraca True jeśli (prawdopodobnie) pierwsza."""
     num = int.from_bytes(block, byteorder="big")
-    return is_prime_bpsw_gmpy(num)
+    return is_prime_bpsw_fast(num)
 
 def main():
     if len(sys.argv) != 2:

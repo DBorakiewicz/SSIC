@@ -29,7 +29,7 @@ try:
     BACKEND = "BPSW (gmpy2)"
 except ImportError:
     try:
-        from bpsw_fast import is_prime_bpsw
+        from bpsw_gmpy import is_prime_bpsw
         BACKEND = "BPSW (fast)"
     except ImportError:
         from bpsw import is_prime_bpsw
