@@ -1,0 +1,10 @@
+Sympy.isprime()
+Wczytano 524288 bloków po 256 bajtów (2048 bitów).
+Znalezionych (prawdopodobnie) pierwszych: 378
+Czas testu: 1431.616 s
+
+gmpy2.is_prime()
+Wczytano 524288 bloków po 256 bajtów (2048 bitów).
+Znalezionych (prawdopodobnie) pierwszych: 378
+Czas testu: 80.609 s
+
