@@ -1,10 +1,16 @@
-Sympy.isprime()
+BPSW
+PS C:\Users\dawid\PycharmProjects\SSC> python .\prime\self_implementation.py .\Lab5\TRNG_P.bit
 Wczytano 524288 bloków po 256 bajtów (2048 bitów).
+Rozpoczynanie równoległego testowania...
 Znalezionych (prawdopodobnie) pierwszych: 378
-Czas testu: 1431.616 s
+Czas testu: 200.492 s
 
-gmpy2.is_prime()
+BPSW - GMPY2
+PS C:\Users\dawid\PycharmProjects\SSC> python .\prime\self_implementation.py .\Lab5\TRNG_P.bit
 Wczytano 524288 bloków po 256 bajtów (2048 bitów).
+Rozpoczynanie równoległego testowania...
 Znalezionych (prawdopodobnie) pierwszych: 378
-Czas testu: 80.609 s
+Czas testu: 27.075 s
+PS C:\Users\dawid\PycharmProjects\SSC>
+
 
